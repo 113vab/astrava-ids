@@ -50,6 +50,29 @@ Running a socket sniffer requires raw socket privileges.
   sudo apt-get install libpcap-dev
   ```
 
+##Screenshots
+## Screenshots
+
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/01-dashboard-overview.png)
+
+### Security Analytics
+
+![Security Analytics](screenshots/02-security-analytics.png)
+
+### Live Activity Feed
+
+![Live Activity Feed](screenshots/03-live-activity-feed.png)
+
+### Top Threat Sources
+
+![Top Threat Sources](screenshots/04-top-threat-sources.png)
+
+
+
+
+
 ### 2. Admin Permissions
 * **Windows**: Run command prompt / IDE as **Administrator**.
 * **Linux/macOS**: Run the Flask app with `sudo` permissions.
