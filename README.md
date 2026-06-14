@@ -4,7 +4,7 @@ A lightweight, real-time intrusion detection and network monitoring dashboard bu
 
 ---
 
-## 📂 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 network_packet_sniffer/
@@ -30,7 +30,7 @@ network_packet_sniffer/
 
 ---
 
-## ⚙️ Core Architecture
+##  Core Architecture
 
 1. **[app.py](file:///C:/Users/visha/network_packet_sniffer/app.py)**: Spawns the background Sniffer thread, exposes statistics REST endpoints (`/api/stats`), manages database lifecycles, and binds UI templates.
 2. **[sniffer.py](file:///C:/Users/visha/network_packet_sniffer/sniffer.py)**: Listens for raw interface events, converts raw Scapy packets into database models, and sends entries to the ThreatDetector engine.
@@ -39,7 +39,7 @@ network_packet_sniffer/
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 Running a socket sniffer requires raw socket privileges.
 
@@ -56,7 +56,7 @@ Running a socket sniffer requires raw socket privileges.
 
 ---
 
-## 🚀 Installation & Running
+##  Installation & Running
 
 1. **Install dependencies**:
    ```bash
